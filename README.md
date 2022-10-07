@@ -14,13 +14,13 @@ Esta desarrollado en .NET Core 3.1 y Entity Framework Core con la arquitectura D
 Una vez descargado, simplemente ejecutar la Api para poder tener activo el Backend
 
 A continuación con algun programa tipo Postman, pueden hacerse peticiónes a los endpoints siguientes
-POST:https://localhost:44375/api/inventory/ - Añadir en el cuerpo un json ej: 
+* POST:https://localhost:44375/api/inventory/ - Añadir en el cuerpo un json ej: 
 {
     "Name" : "Illán",
     "Description" : "Description"
 }
-GET: https://localhost:44375/api/inventory/all
-GET: https://localhost:44375/api/inventory/?id=1
+* GET: https://localhost:44375/api/inventory/all
+* GET: https://localhost:44375/api/inventory/?id=1
 
 ### Siguientes pasos de desarrollo:
 * AutoMapper - He inicializado la clase pero no me ha dado tiempo a hacer una implementación lógica
